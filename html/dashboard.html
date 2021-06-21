@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mani_layout.css">
+    <link rel="stylesheet" href="css/mani_style.css">
+    <link rel="stylesheet" href="css/mani_responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png"  href="images/favicon.jpg" />
+    
+    <title>pacific-palms-property</title>
+  </head>
+  <body class="blue-dot">
+    <!-- Loader -->
+    <div id="loader-wrapper">
+      <div id="loader">
+        <img src="images/loading.gif" alt="" class="loader_img">
+      </div>
+    </div>
+  <!-- /Loader -->
+<!-- start header section-->
+<header class="relative header home_header">  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid relative">
+      <a class="navbar-brand" href="JavaScript:Void(0);">
+        <img src="images/logo.png" class="logo">
+      </a>
+      <button class="navbar-toggler togglerBtn" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>      
+      <div class="collapse navbar-collapse" id="navbarResponsive">        
+         <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>         
+            <li class="nav-item">
+              <a class="nav-link" href="how_it_work.html">Properties</a>
+              <div class="menu">
+                <a href="property-listing.html" class="a_menu">Property Listing</a>
+                <a href="property-inspections.html" class="a_menu">Property Inspections</a>
+                <a href="property-application.html" class="a_menu">Property Application</a>
+                <a href="property-enquiries.html" class="a_menu">Property Enquiries</a>
+                <a href="property-wishist.html" class="a_menu">Property Wishist</a>
+                <a href="maintenance-requests.html" class="a_menu">Maintenance Requests</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Clients</a>
+              <div class="menu">
+                <a href="tenants-list.html" class="a_menu">Tenants List</a>
+                <a href="new-tenant.html" class="a_menu">New Tenant</a>
+                <a href="prospects-list.html" class="a_menu">Prospects List</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Users</a>
+              <div class="menu">
+                <a href="user-and-role-management.html" class="a_menu">Users</a>
+                <a href="worker.html" class="a_menu">Workers</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Content</a>
+              <div class="menu">
+                <a href="help.html" class="a_menu">Help</a>
+                <a href="latest-news.html" class="a_menu">Latest News</a>
+                <a href="updates-and-notices.html" class="a_menu">Updates & Notices</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Events</a>
+              <div class="menu">
+                <a href="events.html" class="a_menu">Events</a>
+                <a href="event-enquiry.html" class="a_menu">Event Enquiries</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="documents.html">Documents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html">Category</a>
+            </li>
+            
+          </ul>  
+      </div> 
+      <div class="">
+        <ul class="mb-0 pl-0 right-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="my-profile.html" >
+                <img src="images/user-icon.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="notification.html" >
+                <img src="images/bell-icon.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >
+                <img src="images/Question.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >
+                <img src="images/settings.svg" alt="">
+              </a>
+            </li>
+          </ul>
+      </div>   
+    </div>
+  </nav>
+</header>
+<!-- header end -->
+
+<section class="clear dashboard-sec1">
+  <div class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"> 
+            <div class="d-flex align-items-center justify-content-between heading-block">
+                <h3 class="ds1-rb-i-h3">Dashboard</h3>
+                <button class="btn mbtn-border"> Jan 2019 - Dec 2019</button>
+            </div>
+        </div>  
+      <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">        
+            <div class="ds1-left-block">
+                <div class="squre-box">
+                    <h6 class="ds1-rb-i-h6">Prospect Registration Overview</h6>
+                    <div class="d-flex align-items-center justify-content-between overview-heading">
+                        <span class="ds1-rb-i-span">Overview</span>
+                        <div class="">
+                            <span class="ds1-rb-i-span active mr-3">Monthly</span>
+                            <span class="ds1-rb-i-span mr-3">Quarterly</span>
+                            <span class="ds1-rb-i-span mr-3">Yearly</span>
+                        </div>
+                    </div>
+                    <div id="chartContainer1" class="chartContainer1" style="height: 300px; width: 100%;"></div>
+                </div>
+            </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">        
+        <div class="ds1-right-block">
+            <div class="ds1-rb-inner squre-box">
+                <div class="mb-2">
+                    <h3 class="ds1-rb-i-h3">98 <small class="ds1-rb-i-small">Properties</small></h3>
+                </div>
+                <div class="row mb-1">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                        <div class="">
+                            <h3 class="ds1-rb-i-h3">52</h3>
+                            <small class="ds1-rb-i-small">Leased</small>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" style="border-left: 1px solid #EEEEEE;border-right: 1px solid #EEEEEE;">
+                        <div class="">
+                            <h3 class="ds1-rb-i-h3">17</h3>
+                            <small class="ds1-rb-i-small">Vacant</small>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                        <div class="">
+                            <h3 class="ds1-rb-i-h3">29</h3>
+                            <small class="ds1-rb-i-small">Unlisted</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <a href="" class="ds1-rb-i-a">See all properties</a>
+                </div>
+            </div>
+        </div>
+        <div class="ds1-right-block">
+            <div class="ds1-rb-inner squre-box">
+                <div class="mb-2 d-flex align-items-center justify-content-between">
+                    <h3 class="ds1-rb-i-h3">209 <small class="ds1-rb-i-small">Tenants</small></h3>
+                    <h3 class="ds1-rb-i-h3">147 <small class="ds1-rb-i-small">Prospects</small></h3>
+                </div>
+                <div class="mb-2 d-flex align-items-center justify-content-between">
+                    <a href="" class="ds1-rb-i-a">See all tenants</a>
+                    <a href="" class="ds1-rb-i-a">See all prospects</a>
+                </div>
+                <div class="mb-2 d-flex align-items-center justify-content-between">
+                    <h3 class="ds1-rb-i-h3">356 <small class="ds1-rb-i-small">Total Registered Clients</small></h3>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">        
+            <div class="ds1-right-block">
+                <div class="ds1-rb-inner squre-box">
+                    <div class="mb-2">
+                        <h3 class="ds1-rb-i-h3">98 <small class="ds1-rb-i-small">Application lodged</small></h3>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">52</h3>
+                                <small class="ds1-rb-i-small">Pending</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" style="border-left: 1px solid #EEEEEE;border-right: 1px solid #EEEEEE;">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">17</h3>
+                                <small class="ds1-rb-i-small">Cancelled</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">29</h3>
+                                <small class="ds1-rb-i-small">Completed</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a href="" class="ds1-rb-i-a">See all applications</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ds1-right-block">
+                <div class="ds1-rb-inner squre-box">
+                    <div class="mb-2">
+                        <h3 class="ds1-rb-i-h3">98 <small class="ds1-rb-i-small"> Inspections lodged</small></h3>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">12</h3>
+                                <small class="ds1-rb-i-small">Pending</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" style="border-left: 1px solid #EEEEEE;border-right: 1px solid #EEEEEE;">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">18</h3>
+                                <small class="ds1-rb-i-small">Cancelled</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">38</h3>
+                                <small class="ds1-rb-i-small">Completed</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a href="" class="ds1-rb-i-a">See all applications</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ds1-right-block">
+                <div class="ds1-rb-inner squre-box">
+                    <div class="mb-2">
+                        <h3 class="ds1-rb-i-h3">98 <small class="ds1-rb-i-small"> Maintenance requests lodged</small></h3>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">12</h3>
+                                <small class="ds1-rb-i-small">Pending</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" style="border-left: 1px solid #EEEEEE;border-right: 1px solid #EEEEEE;">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">18</h3>
+                                <small class="ds1-rb-i-small">Cancelled</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">38</h3>
+                                <small class="ds1-rb-i-small">Completed</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a href="" class="ds1-rb-i-a">See all applications</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ds1-right-block">
+                <div class="ds1-rb-inner squre-box">
+                    <div class="mb-2">
+                        <h3 class="ds1-rb-i-h3">39 <small class="ds1-rb-i-small"> Enquiries lodged</small></h3>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">12</h3>
+                                <small class="ds1-rb-i-small">Pending</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" style="border-left: 1px solid #EEEEEE;border-right: 1px solid #EEEEEE;">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">18</h3>
+                                <small class="ds1-rb-i-small">Cancelled</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="">
+                                <h3 class="ds1-rb-i-h3">38</h3>
+                                <small class="ds1-rb-i-small">Completed</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a href="" class="ds1-rb-i-a">See all applications</a>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+          <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">        
+            <div class="ds1-left-block">
+                <div class="squre-box">
+                    <h6 class="ds1-rb-i-h6">Lodgements Overview</h6>
+                    <div class="d-flex align-items-center justify-content-between overview-heading">
+                        <span class="ds1-rb-i-span">Overview</span>
+                        <div class="">
+                            <span class="ds1-rb-i-span active mr-3">Monthly</span>
+                            <span class="ds1-rb-i-span mr-3">Quarterly</span>
+                            <span class="ds1-rb-i-span mr-3">Yearly</span>
+                        </div>
+                    </div>
+                    <div id="chartContainer2" class="chartContainer2" style="height: 300px; width: 100%;"></div>
+                </div>
+            </div>
+            <div class="ds1-left-block">
+                <div class="squre-box">
+                    <h6 class="ds1-rb-i-h6">Events Overview</h6>
+                    <div class="d-flex align-items-center justify-content-between overview-heading">
+                        <span class="ds1-rb-i-span">Overview</span>
+                        <div class="">
+                            <span class="ds1-rb-i-span active mr-3">Monthly</span>
+                            <span class="ds1-rb-i-span mr-3">Quarterly</span>
+                            <span class="ds1-rb-i-span mr-3">Yearly</span>
+                        </div>
+                    </div>
+                    <div id="chartContainer3" class="chartContainer3" style="height: 300px; width: 100%;"></div>
+                </div>
+            </div>
+          </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/mani_custom.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script> 
+    <script type="text/javascript">
+      $(window).on ('load', function (){
+        $('#loader').delay(100).fadeOut('slow');
+        $('#loader-wrapper').delay(500).fadeOut('slow');
+      });
+    </script>
+    <script>
+      $('#datepicker1').datepicker({
+            uiLibrary: 'bootstrap4'
+      });
+      $(document).ready(function () {
+          $('.nav-pills > li a[title]').tooltip();
+          
+          //Wizard
+          $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+
+              var target = $(e.target);
+          
+              if (target.parent().hasClass('disabled')) {
+                  return false;
+              }
+          });
+
+          $(".next-step").click(function (e) {
+              var active = $('.wizard .nav-pills li.active');
+              //active.next().removeClass('disabled');
+              nextTab(active);
+          });
+          $(".back-btn").click(function (e) {
+
+              var active = $('.wizard .nav-pills li.active');
+              prevTab(active);
+
+          });
+      });
+      function nextTab(elem) {
+      $(elem).next().find('a[data-toggle="tab"]').click();
+      }
+      function prevTab(elem) {
+          $(elem).prev().find('a[data-toggle="tab"]').click();
+      }
+
+
+      $('.nav-pills').on('click', 'li', function() {
+          $('.nav-pills li.active').removeClass('active');
+          $(this).addClass('active');
+      });
+    </script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () { 
+        var chart = new CanvasJS.Chart("chartContainer1",
+        {
+            
+            axisY: {
+                includeZero: false,
+                interval: 10,
+                title: "Temperature (C)"
+            },
+            axisX: {
+                interval: 1,
+                intervalType: "month",
+                valueFormatString: "MMM"
+                },
+            data: [
+            {
+                type: "rangeColumn",
+                color: "#369EAD",
+                dataPoints: [
+                    { x: new Date(2012,00,01), y: [-9.7, 10.4] },  // y: [Low ,High]
+                    { x: new Date(2012,01,01), y: [-8.7, 16.5] },
+                    { x: new Date(2012,02,01), y: [-3.5, 19.4] },
+                    { x: new Date(2012,03,01), y: [5.0, 22.6] },
+                    { x: new Date(2012,04,01), y: [7.9, 29.5] },
+                    { x: new Date(2012,05,01), y: [9.2, 34.7] },
+                    { x: new Date(2012,06,01), y: [7.3, 30.5] },
+                    { x: new Date(2012,07,01), y: [4.4, 25.5] },
+                    { x: new Date(2012,08,01), y: [-3.1, 20.4] },
+                    { x: new Date(2012,09,01), y: [-5.2, 15.4] },
+                    { x: new Date(2012,10,01), y: [-13.5, 9.8] },
+                    { x: new Date(2012,11,01), y: [-15.5, 5.8] }
+                ]
+            }
+            ]
+        });
+        chart.render();
+    });
+    </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () { 
+            var chart2 = new CanvasJS.Chart("chartContainer2",
+            {
+                theme: "light2",
+                        
+                data: [
+                {       
+                    type: "pie",
+                    showInLegend: true,
+                    toolTipContent: "{y} - #percent %",
+                    yValueFormatString: "#,##0,,.## Million",
+                    legendText: "{indexLabel}",
+                    dataPoints: [
+                        {  y: 4181563, indexLabel: "PlayStation 3" },
+                        {  y: 2175498, indexLabel: "Wii" },
+                        {  y: 3125844, indexLabel: "Xbox 360" },
+                        {  y: 1176121, indexLabel: "Nintendo DS"},
+                        {  y: 1727161, indexLabel: "PSP" },
+                        {  y: 4303364, indexLabel: "Nintendo 3DS"},
+                        {  y: 1717786, indexLabel: "PS Vita"}
+                    ]
+                }
+                ]
+            });
+            chart2.render();
+        });
+        </script>
+        
+        <script type="text/javascript">
+            $(document).ready(function () { 
+                var chart3 = new CanvasJS.Chart("chartContainer3",
+                {
+                    axisY:{
+                        title:"Coal (bn tonnes)",
+                        valueFormatString: "#0.#,.",
+                    },
+                    data: [
+                    {
+                        type: "stackedColumn",
+                        legendText: "Anthracite & Bituminous",
+                        showInLegend: "true",
+                        dataPoints: [
+                            {  y: 111338 , label: "USA"},
+                            {  y: 49088, label: "Russia" },
+                            {  y: 62200, label: "China" },
+                            {  y: 90085, label: "India" },
+                            {  y: 38600, label: "Australia"},
+                            {  y: 48750, label: "SA"}
+                        ]
+                    },  {
+                        type: "stackedColumn",
+                        legendText: "SubBituminous & Lignite",
+                        showInLegend: "true",
+                        indexLabel: "#total bn",
+                        yValueFormatString: "#0.#,.",
+                        indexLabelPlacement: "outside",
+                        dataPoints: [
+                            {  y: 135305 , label: "USA"},
+                            {  y: 107922, label: "Russia" },
+                            {  y: 52300, label: "China" },
+                            {  y: 3360, label: "India" },
+                            {  y: 39900, label: "Australia"},
+                            {  y: 0, label: "SA"}
+                        ]
+                    }
+                    ]
+                });
+                chart3.render();
+            });
+            </script>
+    
+  </body>
+</html>

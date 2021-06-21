@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mani_layout.css">
+    <link rel="stylesheet" href="css/mani_style.css">
+    <link rel="stylesheet" href="css/mani_responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png"  href="images/favicon.jpg" />
+    <title>pacific-palms-property</title>
+  </head>
+  <body class="blue-dot">
+    <!-- Loader -->
+    <div id="loader-wrapper">
+      <div id="loader">
+        <img src="images/loading.gif" alt="" class="loader_img">
+      </div>
+    </div>
+  <!-- /Loader -->
+<!-- start header section-->
+<header class="relative header home_header">  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid relative">
+      <a class="navbar-brand" href="JavaScript:Void(0);">
+        <img src="images/logo.png" class="logo">
+      </a>
+      <button class="navbar-toggler togglerBtn" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>      
+      <div class="collapse navbar-collapse" id="navbarResponsive">        
+         <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>         
+            <li class="nav-item">
+              <a class="nav-link" href="how_it_work.html">Properties</a>
+              <div class="menu">
+                <a href="property-listing.html" class="a_menu">Property Listing</a>
+                <a href="property-inspections.html" class="a_menu">Property Inspections</a>
+                <a href="property-application.html" class="a_menu">Property Application</a>
+                <a href="property-enquiries.html" class="a_menu">Property Enquiries</a>
+                <a href="property-wishist.html" class="a_menu">Property Wishist</a>
+                <a href="maintenance-requests.html" class="a_menu">Maintenance Requests</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Clients</a>
+              <div class="menu">
+                <a href="tenants-list.html" class="a_menu">Tenants List</a>
+                <a href="new-tenant.html" class="a_menu">New Tenant</a>
+                <a href="prospects-list.html" class="a_menu">Prospects List</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Users</a>
+              <div class="menu">
+                <a href="user-and-role-management.html" class="a_menu">Users</a>
+                <a href="worker.html" class="a_menu">Workers</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Content</a>
+              <div class="menu">
+                <a href="help.html" class="a_menu">Help</a>
+                <a href="latest-news.html" class="a_menu">Latest News</a>
+                <a href="updates-and-notices.html" class="a_menu">Updates & Notices</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Events</a>
+              <div class="menu">
+                <a href="events.html" class="a_menu">Events</a>
+                <a href="event-enquiry.html" class="a_menu">Event Enquiries</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="documents.html">Documents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html">Category</a>
+            </li>
+            
+          </ul>  
+      </div> 
+      <div class="">
+        <ul class="mb-0 pl-0 right-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="my-profile.html" >
+                <img src="images/user-icon.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="notification.html" >
+                <img src="images/bell-icon.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >
+                <img src="images/Question.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >
+                <img src="images/settings.svg" alt="">
+              </a>
+            </li>
+          </ul>
+      </div>   
+    </div>
+  </nav>
+</header>
+<!-- header end -->
+
+<section class="clear table-section1">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">        
+        <div class="relative d-flex align-items-center mb-30">
+          <span class="fontsize-12 colordef">Documents <i class="fas fa-angle-right ml-1 mr-1"></i></span><span class="fontsize-12 colorblue">Document List </span>
+        </div>
+        <div class="relative d-flex align-items-center justify-content-between">
+          <h6 class="h6 fontweight-700">Documents </h6>
+          <div class="d-flex search-btn-block">
+            <label class="all_type_upload_file mr-3 mb-3" onclick="openNav()">
+                <img src="images/upload-icon.png" class="border-radius4">
+            </label>
+            <button type="button" class="btn" style="margin: 0 1rem 1rem 0;">Add Document</button>
+            <div class="d-flex">
+              <div class="form-group mr-3">
+                <input type="search" class="form-control search-input">
+                <img src="images/search-icon.svg" class="search-icon" alt=""> 
+                <i class="fas fa-times-circle crose-icon"></i>
+              </div>
+              <button type="button" class="btn btn-black">Search</button>
+            </div>
+          </div>
+        </div>
+        <div class="my-table">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Filename</th>
+                <th>Type</th>
+                <th>Created On</th>
+                <th>Modified By</th>
+                <th>Modified On</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="images/folder1.png" alt="" class="mr-2"> Folder One</td>
+                <td>Folder</td>
+                <td>19 Aug 2020</td>
+                <td>David William</td>
+                <td>19 Aug 2020</td>
+                <td>
+                  <div class="dropdown">
+                    <span class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Edit</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Delete</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Deactivate</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/folder1.png" alt="" class="mr-2"> Folder Two</td>
+                <td>Folder</td>
+                <td>19 Aug 2020</td>
+                <td>David William</td>
+                <td>19 Aug 2020</td>
+                <td>
+                  <div class="dropdown">
+                    <span class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Edit</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Delete</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Deactivate</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/file1.png" alt="" class="mr-2"> Filename goes here on a single line of text...</td>
+                <td>PDF</td>
+                <td>19 Aug 2020</td>
+                <td>David William</td>
+                <td>19 Aug 2020</td>
+                <td>
+                  <div class="dropdown">
+                    <span class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Edit</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Delete</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Deactivate</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/file1.png" alt="" class="mr-2"> Filename goes here on a single line of text...</td>
+                <td>Docx</td>
+                <td>19 Aug 2020</td>
+                <td>David William</td>
+                <td>19 Aug 2020</td>
+                <td>
+                  <div class="dropdown">
+                    <span class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Edit</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Delete</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Deactivate</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/file1.png" alt="" class="mr-2"> Filename goes here on a single line of text...</td>
+                <td>PNG</td>
+                <td>19 Aug 2020</td>
+                <td>David William</td>
+                <td>19 Aug 2020</td>
+                <td>
+                  <div class="dropdown">
+                    <span class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Edit</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Delete</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Deactivate</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/file1.png" alt="" class="mr-2"> Filename goes here on a single line of text...</td>
+                <td>JPG</td>
+                <td>19 Aug 2020</td>
+                <td>David William</td>
+                <td>19 Aug 2020</td>
+                <td>
+                  <div class="dropdown">
+                    <span class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Edit</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Delete</a>
+                      <a class="dropdown-item" href="JavaScript:Void(0);">Deactivate</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<div id="mySidenav" class="sidenav">
+  <div class="d-flex align-items-center justify-content-between">
+    <div class="relative">
+      <span class="display-ib fontweight-500 fontsize-18 colordef">Upload Files </span>
+    </div>
+    <a href="javascript:void(0)" class="" onclick="closeNav()">&times;</a>
+  </div>
+  <div class="upload-mid-block">
+    <p class="umb-p1">Drag and drop or choose files</p>
+    <div class="umb-files-upload-block">
+      <div class="umb-fub-inner">
+        <div class="">
+          <img src="images/right-circle.png" alt="" class="" width="16" height="16">
+          <span class="umb-fub-i-text">attached_file_name_goes_here.pdf</span>
+        </div>
+        <img src="images/crose-icon1.svg" alt="" width="16" height="16" style="cursor: pointer;">
+      </div>
+      <div class="umb-fub-inner">
+        <div class="">
+          <img src="images/right-circle.png" alt="" class="" width="16" height="16">
+          <span class="umb-fub-i-text">attached_file_name_goes_here.pdf</span>
+        </div>
+        <img src="images/crose-icon1.svg" alt="" width="16" height="16" style="cursor: pointer;">
+      </div>
+    </div>
+    <div class="umb-drag-drop-block">
+      <span class="umb-ddb-text">Drag and drop files here</span>
+    </div>
+    <div class="umb-divide"></div>
+    <div class="umb-choose-block">
+      <label class="all_type_upload_file d-flex align-items-center">
+        <img src="images/folder1.png" class="mr-2" width="16" height="16">
+        <span class="colordef">Choose</span>
+        <input type="file">
+      </label>
+    </div>
+  </div>
+  <div class="upload-bottom-block">
+    <button type="button" class="btn fontsize-12 mr-1">Done</button>
+    <button type="button" class="btn btn-black fontsize-12">Clear All</button>
+  </div>
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/mani_custom.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script> 
+    <script type="text/javascript">
+      $(window).on ('load', function (){
+        $('#loader').delay(100).fadeOut('slow');
+        $('#loader-wrapper').delay(500).fadeOut('slow');
+      });
+    </script>
+    <script type="text/javascript">
+      function openNav() {
+        document.getElementById("mySidenav").style.right = "0px";
+        document.getElementById("main").style.marginRight = "350px";
+        $('.chat-button').css('display','none');
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.right = "-350px";
+        document.getElementById("main").style.marginRight= "0";
+        $('.chat-button').css('display','flex');
+      }
+
+    </script>
+  </body>
+</html>

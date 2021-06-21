@@ -1,0 +1,106 @@
+@media (max-width: 360px){ 
+    /** layout css **/
+
+    /** header css **/
+    
+    /** footer css **/
+
+    /** mid-content css **/
+    
+    /*modal*/
+    
+
+}
+
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 300px) and (max-width: 575px) { 
+/** layout css **/
+    .table-section1 .form-group .search-input {
+        width: 191px;
+    }
+    .table-section1 .relative.d-flex.align-items-center.justify-content-between{
+        display: block !important;
+    }
+}
+
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) and (max-width: 767px) { 
+    /** layout css **/
+    
+    
+    /** footer css **/
+
+    /** mid-content css **/
+    .table-section1 .relative.d-flex.align-items-center.justify-content-between{
+        display: block !important;
+    }
+    
+}
+@media(max-width:992px){
+    .right-nav {
+        margin-right: 30px;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top: 64px;
+        background: #fff;
+        width: 100%;
+    }
+    .nav-item {
+        padding: 10px 0px;
+    }
+    .right-nav .nav-item{
+        padding: 23px 0px;
+    }
+    .table-section1 {
+        padding: 20px 0px;
+    }
+    
+    
+}
+
+/** Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) and (max-width: 991px) {
+    /** layout css **/
+
+    
+}
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) and (max-width: 1200px) { 
+/** layout css **/
+
+/** header css **/
+    
+.width1150{
+    min-width: auto;
+    max-width: 1150px;
+}
+
+
+}
+
+/** Extra large devices (large desktops, 1400px and up)**/
+@media (min-width: 1400px) and (max-width: 1919px) { 
+/** layout css **/
+
+/** header css **/
+
+/** footer css **/
+
+/** mid-content css **/
+    
+}
+
+
+/** Extra large devices (large desktops, 1800px and up)**/
+@media (min-width: 1920px) { 
+/** layout css **/
+
+/** header css **/
+
+/** footer css **/
+
+/** mid-content css **/
+    
+}

@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/mani_layout.css">
+    <link rel="stylesheet" href="css/mani_style.css">
+    <link rel="stylesheet" href="css/mani_responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <link rel="shortcut icon" type="image/png"  href="images/favicon.jpg" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>pacific-palms-property - property-listing</title>
+  </head>
+  <body class="blue-dot">
+    <!-- Loader -->
+    <div id="loader-wrapper">
+      <div id="loader">
+        <img src="images/loading.gif" alt="" class="loader_img">
+      </div>
+    </div>
+  <!-- /Loader -->
+<!-- start header section-->
+<header class="relative header home_header">  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid relative">
+      <a class="navbar-brand" href="JavaScript:Void(0);">
+        <img src="images/logo.png" class="logo">
+      </a>
+      <button class="navbar-toggler togglerBtn" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>      
+      <div class="collapse navbar-collapse" id="navbarResponsive">        
+         <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Dashboard</a>
+            </li>         
+            <li class="nav-item">
+              <a class="nav-link" href="how_it_work.html">Properties</a>
+              <div class="menu">
+                <a href="property-listing.html" class="a_menu">Property Listing</a>
+                <a href="property-inspections.html" class="a_menu">Property Inspections</a>
+                <a href="property-application.html" class="a_menu">Property Application</a>
+                <a href="property-enquiries.html" class="a_menu">Property Enquiries</a>
+                <a href="property-wishist.html" class="a_menu">Property Wishist</a>
+                <a href="maintenance-requests.html" class="a_menu">Maintenance Requests</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Clients</a>
+              <div class="menu">
+                <a href="tenants-list.html" class="a_menu">Tenants List</a>
+                <a href="new-tenant.html" class="a_menu">New Tenant</a>
+                <a href="prospects-list.html" class="a_menu">Prospects List</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >Users </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Content</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Documents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);">Messages</a>
+            </li>
+          </ul>  
+      </div> 
+      <div class="">
+        <ul class="mb-0 pl-0 right-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >
+                <img src="images/user-icon.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >
+                <img src="images/bell-icon.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >
+                <img src="images/Question.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JavaScript:Void(0);" >
+                <img src="images/settings.svg" alt="">
+              </a>
+            </li>
+          </ul>
+      </div>   
+    </div>
+  </nav>
+</header>
+<!-- header end -->
+
+<section class="clear detail-section1" id="main">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">        
+        <div class="relative d-flex align-items-center mb-30">
+          <span class="fontsize-12 colordef">Properties <i class="fas fa-angle-right ml-1 mr-1"></i>
+          <span class="fontsize-12 colordef">Property Maintenance Properties<i class="fas fa-angle-right ml-1 mr-1"></i>
+          </span><span class="fontsize-12 colorblue">Request Details </span> 
+          <span class="chat-button" onclick="openNav()"><img src="images/opan-chat-icon.png" class=""> Open Chat</span>
+
+        </div>
+        <div class="relative mb-30">
+          <h6 class="h6 fontweight-700 mb-30"><i class="fas fa-arrow-left fontsize-14 mr-1"></i></i>Request Details</h6>
+        </div>
+        <div class="white-box mb-30">
+            <div class="alert-type-box"><img src="images/info-icon.svg"> A maintenance worker or worker should be assigned this job to fix.  </div>
+            <div class="main-contant">
+                <div class="relative">  
+                    <div class="d-flex mb-3">
+                        <span class="display-ib colordef fontsize-12 fontweight-500 mr-4">Issue</span>
+                        <span class="display-ib colordef fontsize-12 ">Toilet is overflowing </span>
+                        <span class="chips chips-black ml-auto">PLUMBING</span>
+                    </div>
+                    <div class="gray-box-italic mb-30">
+                        <span>I would like to enquire about the about subject. What is the minimum dyration of a lease for your apartments if I'm looking into renting one? I am currently in POM for a consultancy gig. and would like to rent an appartment for just 2 months. I could stay at a hotel, but that'll be to pricy.</span>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <span class="detil-property">Requested By
+                        </span>
+                        <span class="detil-value">Samantha Keith <span class="chips chips-green ml-1">Tenant</span></span>
+                     </div>
+                     <div class="d-flex mb-4">
+                      <span class="detil-property">Requested On
+                    </span>
+                      <span class="detil-value">Monday, 3 May 2020, 10:00 AM</span>
+                   </div>
+                   <div class="devider mb-4"></div>
+                   <div class="d-flex mb-4">
+                        <span class="detil-property">Property</span>
+                        <span class="detil-value colorblue" style="color:#4A90E2;">Exclusive Seaview Excutive Appartment
+                        </span>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <span class="detil-property">Address
+                        </span>
+                        <span class="detil-value">Winward East Unit 07/02 kermat street, Ela Beach.
+                        </span>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <span class="detil-property">Rectifying Time</span>
+                        <span class="detil-value">48 hours </span>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <span class="detil-property">Tenant Rating</span>
+                        <span class="detil-value">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                            <!-- <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" />
+                                <label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                                <label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                
+                                <input type="radio" id="star4" name="rating" value="4" />
+                                <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                                <label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                
+                                <input type="radio" id="star3" name="rating" value="3" />
+                                <label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                                <label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                
+                                <input type="radio" id="star2" name="rating" value="2" />
+                                <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" />
+                                <label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                
+                                <input type="radio" id="star1" name="rating" value="1" />
+                                <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                
+                                <input type="radio" id="starhalf" name="rating" value="half" />
+                                <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset> -->
+                        </span>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <span class="detil-property">TTenant Feedback</span>
+                        <span class="detil-value">
+                            <div class="gray-box-value">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium architecto quae explicabo adipisci iusto molestias totam optio
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-contant">
+                <div class="form-group inp-rw" id="">
+                    <div class="btn-group multi_sigle_select inp_select open"> 
+                        <label class="label mb-1">Assigned Worker</label>
+                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" aria-expanded="true">Choose Agent</button>
+                        <ul class="dropdown-menu mss_sl_btn_dm" x-placement="bottom-start">
+                            <li class="radiobox-image">
+                                <input type="radio" id="id_20" name="Assigned" class="" value="Choose" data-idrem="Availability">
+                                <label for="id_20">Markus Teller
+                                </label>
+                            </li>
+                            <li class="radiobox-image">
+                                <input type="radio" id="id_15" name="Assigned" class="" value="Option" data-idrem="Option">
+                                <label for="id_15">Option </label>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+                <div class="form-group inp-rw" id="">
+                  <div class="btn-group multi_sigle_select inp_select open"> 
+                      <label class="label mb-1">Job Card Status </label>
+                      <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" aria-expanded="true">New</button>
+                      <ul class="dropdown-menu mss_sl_btn_dm" x-placement="bottom-start">
+                          <li class="radiobox-image">
+                            <input type="radio" id="id_13" name="Status" class="" value="New" data-idrem="New">
+                            <label for="id_13">New</label>
+                        </li>
+                         
+                      </ul> 
+                  </div>
+              </div>
+                <div class="form-group inp-rw" id="">
+                    <div class="btn-group multi_sigle_select inp_select open"> 
+                        <label class="label mb-1">Availability</label>
+                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" aria-expanded="true">Published</button>
+                        <ul class="dropdown-menu mss_sl_btn_dm" x-placement="bottom-start">
+                            <li class="radiobox-image">
+                                <input type="radio" id="id_18" name="Availability" class="" value="Published" data-idrem="Availability">
+                                <label for="id_18">Published</label>
+                            </li>
+                            <li class="radiobox-image">
+                                <input type="radio" id="id_19" name="Availability" class="" value="Option" data-idrem="Option">
+                                <label for="id_19">Option </label>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+                <div class="form-group inp-rw" id="">
+                    <div class="btn-group multi_sigle_select inp_select open"> 
+                        <label class="label mb-1">Access</label>
+                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" aria-expanded="true">Public</button>
+                        <ul class="dropdown-menu mss_sl_btn_dm" x-placement="bottom-start">
+                            <li class="radiobox-image">
+                                <input type="radio" id="id_18" name="Access" class="" value="Public" data-idrem="Public">
+                                <label for="id_18">Public</label>
+                            </li>
+                            <li class="radiobox-image">
+                                <input type="radio" id="id_19" name="Access" class="" value="Option" data-idrem="Option">
+                                <label for="id_19">Option </label>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <button type="button" class="btn fontsize-12 mr-1">Save</button>     
+        <button type="button" class="btn btn-black fontsize-12">Cancel</button>     
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="mySidenav" class="sidenav">
+  <div class="d-flex align-items-center justify-content-between">
+    <div class="relative">
+      <div class="chat-img display-ib">
+        <img src="images/" alt="">
+      </div>
+      <span class="display-ib fontweight-500 fontsize-12 colordef">Chat with Samantha Kelth </span>
+    </div>
+    <a href="javascript:void(0)" class="" onclick="closeNav()">&times;</a>
+  </div>
+  <div class="chat-box">
+    <div class="received-msg">
+      <span class="in-chat">hii</span>
+    </div>
+    <div class="send-msg">
+      <span class="out-chat">hy</span>
+    </div>
+    <div class="received-msg">
+      <span class="in-chat">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </span>
+    </div>
+    <div class="send-msg">
+      <span class="out-chat"> vitae cupiditate voluptatum a sunt,</span>
+    </div>
+    <div class="received-msg">
+      <span class="in-chat"> quod atque expedita, </span>
+    </div>
+    <div class="send-msg">
+      <span class="out-chat">officia ducimus reiciendis corporis esse!</span>
+    </div>
+    <div class="received-msg">
+      <span class="in-chat">Fugit quia iure porro deleniti facere dolorem. </span>
+    </div>
+    <div class="send-msg">
+      <span class="out-chat">Veniam repudiandae</span>
+    </div>
+    
+  </div>
+  <div class="msg-input">
+    <img src="images/emoji.svg" class="emoji">
+    <textarea class="msg-type" placeholder="Type your message here"></textarea>
+    <button type="button" class="send-button">
+      <img src="images/send-black.svg" alt="">
+    </button>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/mani_custom.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript">
+    new WOW().init();
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    <script type="text/javascript">
+      $(window).on ('load', function (){
+        $('#loader').delay(100).fadeOut('slow');
+        $('#loader-wrapper').delay(500).fadeOut('slow');
+      });
+
+      function openNav() {
+        document.getElementById("mySidenav").style.right = "0px";
+        document.getElementById("main").style.marginRight = "350px";
+        $('.chat-button').css('display','none');
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.right = "-350px";
+        document.getElementById("main").style.marginRight= "0";
+        $('.chat-button').css('display','flex');
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,471 @@
+/* Add here all your CSS customizations */
+.logo-text{
+    color: #6EC600;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+.table-a{
+    color: #333333;
+    text-decoration: none;
+}
+.table-a:hover,.table-a:focus{
+    color: #333333;
+    text-decoration: none;
+}
+.fontsize-14{
+    font-size:14px;
+} 
+.fontsize-16{
+    font-size:16px;
+} 
+.color-gray{color: #999;}
+.color-cyan{color: #6EC600;}
+.color-red{color: #ff4b4b;}
+.color-yallow{color: #fdbc2b;}
+.color333{color: #333;}
+.d-flex{
+    display: flex;
+}
+.d-inline-block{
+    display: inline-block;    
+}
+.header-a{
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    padding:0px 15px
+}
+.header-a:first-child{
+    border-right: 1px solid #333;
+}
+.header-a:hover,.header-a:focus{
+    color: #6EC600;
+    text-decoration: none;
+}
+@media only screen and (max-width: 960px) {
+    .header .logo{
+        margin-top:0rem !important;
+    }
+    .header .logo img {
+        color: transparent;
+        width: 100px;
+        height: auto;
+    }
+    .logo-text{
+        font-size: 12px;
+    }
+    .header-a{
+        display: none;
+    }
+    .d-flex.justify-content-end{
+        justify-content: flex-start !important;
+        margin-top:10px;
+    }
+    .d-flex.justify-content-end .ml-2{
+        margin-left: 0rem !important;
+    }
+}
+.fontweight600{font-weight: 600;}
+.w-auto{
+    width:auto;
+}
+.w-200 {
+    width:200px;
+    margin-right: 0.25rem;
+}
+.w-300{
+    width:300px;
+}
+.gray-btn{
+    background-color: #e8e8e8;
+    border-color: #fff;
+    color: #333;
+    display: inline-block;
+    min-width: 40px;
+}
+.tab-navigation{
+    background: #6EC600;
+}
+html.dark .table > thead > tr > th{
+    border-top-color:transparent;
+}
+.chips-leased{
+    border-radius: 30px;
+    background: #81b10c;
+    color: #fff;
+    text-transform: uppercase;
+    padding:2px 10px;
+    min-width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+.chips-draft{
+    border-radius: 30px;
+    background: #00c698;
+    color: #fff;
+    text-transform: uppercase;
+    padding:2px 10px;
+    min-width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+.chips-abailable{
+    border-radius: 30px;
+    background: #008fc6;
+    color: #fff;
+    text-transform: uppercase;
+    padding:2px 10px;
+    min-width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+.chips-open{
+    background: #0cb14e;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding:2px 10px;
+    min-width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+.chips-close{
+    background: #e40f00;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding:2px 10px;
+    min-width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+.blue-chips{
+    border-radius: 30px;
+    background: #008fc6;
+    color: #ffffff;
+    padding: 2px;
+    min-width: 44px;
+    text-align: center;
+    display: inline-block;
+}
+
+.relative{position: relative;}
+.calender-align{
+    position:absolute;
+    right:10px;
+    top:11px;
+}
+.fontweight600{font-weight:600;}
+.d-flex label{
+    width: 170px;
+    margin-top: 5px;
+    color: #333;
+}
+.label{
+    margin-top: 5px;
+    color: #333;
+    margin-bottom:0px
+}
+.d-flex .form-control{
+    width: 320px;
+}
+.d-flex textarea{
+    height: 110px;
+    resize: none;
+    overflow: auto;
+}
+.radio-custom{
+    width:160px;
+    height:39px;
+    border:1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding-left: 0rem;
+}
+html.dark .radio-custom label:before,
+html.dark .radio-custom label:after{
+    display: none;
+}
+html.dark .radio-primary input[type="radio"]:checked + label:after, .radio-primary input[type="radio"]:checked + label:after{
+    display: none;
+}
+.radio-primary input[type="radio"] + label{
+    color: #999;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.radio-primary input[type="radio"]:checked + label{
+    color: #333;
+    font-weight: 600;
+}
+@media(max-width:576px){
+    .d-flex.mb-3{display: block !important;}
+    .d-flex .form-control{
+        width: 100% !important;
+    }
+}
+td button.dropdown-toggle {
+    -webkit-appearance: media-sliderthumb;
+    background: transparent;
+}
+html.dark .table > thead > tr > th,
+html.dark .table > tbody > tr > td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+html body .tabs-dark .nav-tabs li.active .nav-link, html.dark body .tabs-dark .nav-tabs li.active .nav-link{
+    border-top: none;
+}
+.textarea{
+    position: relative;
+    margin-top: 20px;
+}
+.textarea .top-fixed{
+    height: 40px;
+    width:100%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    color: #999;
+    font-weight: 600;
+    border-bottom: 1px solid #e8e8e8;
+    padding:10px;
+}
+.textarea textarea{
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+}
+.date-box input.form-control{
+    width:230px;
+}
+.width270{
+    width:270px !important;
+}
+.google-location{
+    height: 100px;
+    width: 97%;
+    border: 1px solid #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-location i{
+    font-size:48px;
+}
+.right-align-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom:0
+}
+.right-align-btn button{
+    height: 100%;
+    background: #fff;
+    color: #999;
+    padding: 0px 12px;
+    border-left: 1px solid #e8e8e8;
+}
+.right-align-btn button i{
+    font-size:16px;
+}
+.overflow_elips {
+    white-space: nowrap;
+    width: 100%;
+    max-width: 455px;;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+.chart-box{
+    border: 1px solid #e8e8e8;
+    padding:10px;
+}
+.d-flex.justify-content-between.mb-4 .relative span,
+.d-flex.justify-content-between.mb-4 .relative a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #333333;
+}
+@media(max-width:767px){
+    .d-flex.justify-content-between.mb-4{
+        display: block !important;
+    }
+}
+@media(max-width:576px){
+    html.has-tab-navigation .content-body{
+        padding:10px 10px !important;
+    }
+}
+
+/* chat box */
+.chat-box{
+    display: flex;
+    justify-content:center;
+}
+.right-box{
+    width:80%;
+    display: inline-block;
+    position: relative;
+    max-height: 500px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+.chat-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.chat-header .fa-info-circle{
+    font-size: 18px;
+}
+.chat-img-round{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.chat-name-text{
+    display: inline-block;
+}
+.chat-name-text p{
+    margin:0rem;
+}
+.chat-contant{
+    padding: 10px 10px 80px 10px;
+    position: relative;
+    height: 85%;
+    overflow: auto;
+}
+.send-message{
+    width:auto;
+    max-width:85%;
+    background: #00c698;
+    color: #ffffff;
+    padding:10px 15px;
+    border-radius: 0.5rem;
+    margin: 5px 0px 5px auto;
+}
+.receive-message{
+    width:auto;
+    max-width:85%;
+    background: #ffffff;
+    color: #999;
+    padding:10px 15px;
+    border-radius: 0.5rem;
+    margin: 5px auto 5px 0px;
+    border: 1px solid #e8e8e8;
+}
+.send-message p{
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0rem;
+}
+.receive-message p{
+    color: #333;
+    font-size: 16px;
+    margin: 0rem;
+}
+.message-send-box input{
+    border: 1px solid #e8e8e8;
+    border-radius: 0.25rem;
+    width: 85%;
+    height: 45px;
+    margin-right: 0.5rem;
+    padding: 0px 15px;
+}
+.message-send-box input:focus{
+    border: 1px solid #e8e8e8;
+    outline: -webkit-focus-ring-color auto 0px;
+
+}
+.message-send-box{
+    position: absolute;
+    width: 95%;
+    bottom: 0px;
+    margin: 10px 10px 20px 10px;
+}
+.message-send-box a:hover,.message-send-box a:focus{
+    color: #81b10c;
+    text-decoration: none;
+}
+.online{
+    right: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #81b10c;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
+.my-chips{
+    padding: 5px 10px;
+    background: #dedede;
+    border-radius: 30px;
+    color: #333;
+    display: inline-block;
+}
+.tab-content .tab-pane{
+    padding:15px;
+}
+.tab-content #tab9{background: #f7f7f7;}
+.upload-img{display: inline-block;margin:10px;vertical-align: bottom;}
+.upload-box,.upload-box-show{
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    border:1px solid #e8e8e8;
+}
+.upload-span{
+    position: absolute;
+    bottom: 30px;
+}
+.upload-box input[type="file"]{
+    opacity: 0;
+    position: absolute;
+    z-index:9;
+    width: 100%;
+    height: 100%;
+}
+.upload-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.upload-box img.upload-icon{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.upload-box a.cencel-img{
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    z-index: 9;
+}
+.upload-box a.cencel-img img{
+    width: 18px;
+    height: 18px;
+}
+.propert-thumbnail{
+    width: 120px;
+}

@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mani_layout.css">
+    <link rel="stylesheet" href="css/mani_style.css">
+    <link rel="stylesheet" href="css/mani_responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png"  href="images/favicon.jpg" />
+    <title>pacific-palms-property - property-listing</title>
+  </head>
+  <body class="blue-dot">
+    <!-- Loader -->
+    <div id="loader-wrapper">
+      <div id="loader">
+        <img src="images/loading.gif" alt="" class="loader_img">
+      </div>
+    </div>
+  <!-- /Loader -->
+
+  <section class="new-tenant">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">     
+              <div class="white-box">
+                <div class="d-flex wizard">
+                    <div class="p-3 left-tabs-option">
+                      <a href="JavaScript:Void(0);" class="d-block mb-30"><img src="images/logo.png" alt="" class="vertical-tab-logo"></a>
+                      <h6 class="h6 colordef fontweight-700 mb-30">New Tenant</h6>
+                      <ul class="nav nav-pills flex-column " id="myTab" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true" class="vertical-tab active"><span class="dot"></span> 1. Personal Details
+                        </a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false" class="vertical-tab"><span class="dot"></span> 2. Employment Detail
+                        </a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" aria-expanded="false" class="vertical-tab"><span class="dot"></span> 3. Lease Details
+                        </a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#step4" data-toggle="tab" aria-controls="step4" role="tab" aria-expanded="false" class="vertical-tab"><span class="dot"></span> 4. Preferrences
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="tab-alert">
+                        <img src="images/info-icon.svg" class="d-inlin-block" alt=""> <span class="fontsize-12">All the fields are required unless marked as <i>(option)</i>
+                        </span>
+                      </div>
+                    </div>
+                      <div class="tab-content right-tab-option" id="main_form">
+                          <a href="JavaScript:Void(0);" class="color888 fontsize-12 a_hover_888 cancel-btn">Cancel <img src="images/crose-icon1.svg" class="crose-icon" alt=""></a>
+                        <div class="tab-pane fade show active" role="tabpanel" id="step1">
+                            <span class="fontsize-14">Step 1 of 4</span>
+                            <h5 class="fontsize-20 colorblue fontweight-500 mb-30">Personal Details</h5>
+                            <form class="">
+                                <div class="form-group">
+                                    <label class="label">First Name</label>
+                                    <input type="text" class="form-control width260" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label class="label">Last Name</label>
+                                    <input type="text" class="form-control width260" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label class="label">Address</label>
+                                    <textarea type="text" class="form-control width320" placeholder=""></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="label">Email</label>
+                                    <input type="text" class="form-control width260" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label class="label">Mobile Number</label>
+                                    <input type="text" class="form-control width260" placeholder="">
+                                </div>
+                                <div class="form-group mb-30">
+                                    <label class="label">Phone Number </label>
+                                    <input type="text" class="form-control width260" placeholder="">
+                                </div>
+                                <button type="button" class="btn next-step">Next Step <img src="images/white-arrow.svg" alt=""></button>
+                            </form>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="step2">
+                            <span class="fontsize-14">Step 2 of 4</span>
+                            <h5 class="fontsize-20 colorblue fontweight-500 mb-30">Employment Details</h5>
+                            <form class="">
+                                <div class="form-group inp-rw" id="">
+                                    <div class="btn-group multi_sigle_select inp_select open"> 
+                                        <label class="label mb-1 d-block">Profession </label>
+                                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn width320" aria-expanded="true">Choose</button>
+                                        <ul class="dropdown-menu mss_sl_btn_dm width320" x-placement="bottom-start">
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_26" name="Profession" class="" value="Choose" data-idrem="Choose">
+                                                <label for="id_26">Choose</label>
+                                            </li>
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_27" name="Profession" class="" value="inactive" data-idrem="inactive">
+                                                <label for="id_27">Choose1 </label>
+                                            </li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="label">Employer</label>
+                                    <input type="text" class="form-control width260" placeholder="">
+                                </div>    
+                                <div class="form-group inp-rw" id="">
+                                    <div class="btn-group multi_sigle_select inp_select open"> 
+                                        <label class="label mb-1 d-block">Position</label>
+                                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn width260" aria-expanded="true">Choose</button>
+                                        <ul class="dropdown-menu mss_sl_btn_dm width260" x-placement="bottom-start">
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_28" name="Position " class="" value="Choose" data-idrem="Choose">
+                                                <label for="id_28">Choose</label>
+                                            </li>
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_29" name="Position" class="" value="inactive" data-idrem="inactive">
+                                                <label for="id_29">Choose1 </label>
+                                            </li>
+                                        </ul> 
+                                    </div>
+                                </div>                            
+                                <div class="form-group ">
+                                    <label class="label">Employed On</label>
+                                    <span class="after-datepicker-icon"></span>
+                                    <input type="text" class="form-control date-picker width160" placeholder="" id="datepicker1">
+                                </div>
+                                <div class="form-group ">
+                                    <label class="label">Employment Due</label>
+                                    <span class="after-datepicker-icon"></span>
+                                    <input type="text" class="form-control date-picker width160" placeholder="" id="datepicker2">
+                                </div>
+                                <div class="form-group mb-30">
+                                    <label class="label">Employer Address</label>
+                                    <textarea type="text" class="form-control width320" placeholder=""></textarea>
+                                </div>
+                                <button type="button" class="back-btn"><img src="images/back-arrow.svg"></button>
+                                <button type="button" class="btn next-step">Next Step <img src="images/white-arrow.svg" alt=""></button>
+                            </form>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="step3">
+                            <span class="fontsize-14">Step 3 of 4</span>
+                            <h5 class="fontsize-20 colorblue fontweight-500 mb-30">Lease Details</h5>
+                            <form class="">
+                                <div class="form-group inp-rw" id="">
+                                    <div class="btn-group multi_sigle_select inp_select open"> 
+                                        <label class="label mb-1 d-block">Profession </label>
+                                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn width320" aria-expanded="true">Choose</button>
+                                        <ul class="dropdown-menu mss_sl_btn_dm width320" x-placement="bottom-start">
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_26" name="Profession" class="" value="Choose" data-idrem="Choose">
+                                                <label for="id_26">Choose</label>
+                                            </li>
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_27" name="Profession" class="" value="inactive" data-idrem="inactive">
+                                                <label for="id_27">Choose1 </label>
+                                            </li>
+                                        </ul> 
+                                    </div>
+                                </div>                            
+                                <div class="form-group ">
+                                    <label class="label">Applied On</label>
+                                    <span class="after-datepicker-icon"></span>
+                                    <input type="text" class="form-control date-picker width160" placeholder="" id="datepicker">
+                                </div>
+                                <div class="form-group ">
+                                    <label class="label">Leased On</label>
+                                    <span class="after-datepicker-icon"></span>
+                                    <input type="text" class="form-control date-picker width160" placeholder="" id="datepicker4">
+                                </div>
+                                <div class="form-group ">
+                                    <label class="label">Leased Due </label>
+                                    <span class="after-datepicker-icon"></span>
+                                    <input type="text" class="form-control date-picker width160" placeholder="" id="datepicker3">
+                                </div>
+                                <div class="form-group mb-30">
+                                    <label class="label d-block">Security Deposit</label>
+                                    <input type="text" class="form-control d-inline-block width160" placeholder="">
+                                    <span class="fontsize-12 colordef d-inline-block ml-2">PGK</span>    
+                                </div>
+                                <button type="button" class="back-btn"><img src="images/back-arrow.svg"></button>
+                                <button type="button" class="btn next-step">Next Step <img src="images/white-arrow.svg" alt=""></button>
+                            </form>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="step4">
+                            <span class="fontsize-14">Step 4 of 4</span>
+                            <h5 class="fontsize-20 colorblue fontweight-500 mb-30">Preferrences</h5>
+                            <form class="">
+                                <div class="form-group inp-rw" id="">
+                                    <div class="btn-group multi_sigle_select inp_select open"> 
+                                        <label class="label mb-1 d-block">Availability </label>
+                                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn width160" aria-expanded="true">Published</button>
+                                        <ul class="dropdown-menu mss_sl_btn_dm width160" x-placement="bottom-start">
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_31" name="Availability" class="" value="Choose" data-idrem="Choose">
+                                                <label for="id_31">Published</label>
+                                            </li>
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_32" name="Availability" class="" value="inactive" data-idrem="inactive">
+                                                <label for="id_32">Choose1 </label>
+                                            </li>
+                                        </ul> 
+                                    </div>
+                                </div> 
+                                <div class="form-group inp-rw" id="">
+                                    <div class="btn-group multi_sigle_select inp_select open"> 
+                                        <label class="label mb-1 d-block">Listing </label>
+                                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn width160" aria-expanded="true">Residential</button>
+                                        <ul class="dropdown-menu mss_sl_btn_dm width160" x-placement="bottom-start">
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_33" name="Listing" class="" value="Choose" data-idrem="Choose">
+                                                <label for="id_33">Residential</label>
+                                            </li>
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_34" name="Listing" class="" value="inactive" data-idrem="inactive">
+                                                <label for="id_34">Choose1 </label>
+                                            </li>
+                                        </ul> 
+                                    </div>
+                                </div>    
+                                <div class="form-group inp-rw mb-30" id="">
+                                    <div class="btn-group multi_sigle_select inp_select open"> 
+                                        <label class="label mb-1 d-block">Access </label>
+                                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn width160" aria-expanded="true">Residential</button>
+                                        <ul class="dropdown-menu mss_sl_btn_dm width160" x-placement="bottom-start">
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_35" name="Access" class="" value="Choose" data-idrem="Choose">
+                                                <label for="id_35">Residential</label>
+                                            </li>
+                                            <li class="radiobox-image">
+                                                <input type="radio" id="id_36" name="Access" class="" value="inactive" data-idrem="inactive">
+                                                <label for="id_36">Choose1 </label>
+                                            </li>
+                                        </ul> 
+                                    </div>
+                                </div>   
+                                <button type="button" class="back-btn"><img src="images/back-arrow.svg"></button>
+                                <button type="button" class="btn next-step">Finish and Add Tenant<img src="images/white-arrow.svg" alt=""></button>                         
+                            </form>
+                        </div>
+                      </div>
+                </div> 
+              </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/mani_custom.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+
+      $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap4'
+      });
+      $('#datepicker1').datepicker({
+            uiLibrary: 'bootstrap4'
+      });
+      $('#datepicker2').datepicker({
+            uiLibrary: 'bootstrap4'
+      });
+      $('#datepicker3').datepicker({
+            uiLibrary: 'bootstrap4'
+      });
+      $('#datepicker4').datepicker({
+            uiLibrary: 'bootstrap4'
+      });
+    </script> 
+    <script type="text/javascript">
+      $(window).on ('load', function (){
+        $('#loader').delay(100).fadeOut('slow');
+        $('#loader-wrapper').delay(500).fadeOut('slow');
+      });
+
+      // ------------step-wizard-------------
+$(document).ready(function () {
+    $('.nav-pills > li a[title]').tooltip();
+    
+    //Wizard
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+
+        var target = $(e.target);
+    
+        if (target.parent().hasClass('disabled')) {
+            return false;
+        }
+    });
+
+    $(".next-step").click(function (e) {
+        var active = $('.wizard .nav-pills li.active');
+        //active.next().removeClass('disabled');
+        nextTab(active);
+    });
+    $(".back-btn").click(function (e) {
+
+        var active = $('.wizard .nav-pills li.active');
+        prevTab(active);
+
+    });
+});
+
+function nextTab(elem) {
+    $(elem).next().find('a[data-toggle="tab"]').click();
+}
+function prevTab(elem) {
+    $(elem).prev().find('a[data-toggle="tab"]').click();
+}
+
+
+$('.nav-pills').on('click', 'li', function() {
+    $('.nav-pills li.active').removeClass('active');
+    $(this).addClass('active');
+});
+
+
+
+    </script>
+  </body>
+</html>
